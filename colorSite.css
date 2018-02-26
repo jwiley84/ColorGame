@@ -1,0 +1,74 @@
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: rgb(50,0,0);
+}
+
+.colorBlock {
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+    background-color: pink;
+    border-radius:  10px;
+}
+
+.titleBar {
+    text-align: center;
+}
+
+.header {
+    background: linear-gradient(to bottom right, pink, pink, red, pink, pink);
+    background-color: red;
+    height: 150px;
+    width: auto;
+    margin-top: 0px;
+}
+
+h1, h2 {
+    margin-top: 5px;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.clickColors {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clickbar {
+    font-weight: bold;
+    position: relative;
+    background-color: white;
+}
+
+#right2 {
+    width: 45px;
+    border: 1px solid transparent;
+    position:  absolute;
+    top: 5px;
+    right: 0px;
+    padding-right: 7px;
+    padding-left: 5px;
+}
+
+#right1 {
+    width: 45px;
+    border: 1px solid transparent;
+    position: absolute;
+    right: 49px;
+    top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.row {
+    position: relative;
+}
+
+.overRideContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
